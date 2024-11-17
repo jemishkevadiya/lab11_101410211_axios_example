@@ -1,0 +1,65 @@
+/* Main container fro the component */
+.container {
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 1200px;
+}
+
+/* Style header(User List) */
+.header {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 11px;
+    font-size: 24px;
+}
+
+/* Style list of cards */
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* Style individual card */
+.card {
+    background-color: teal;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Style layout for the content(employee info) */
+.card-content {
+    display: flex;
+    gap: 20px; 
+}
+
+/* Style for heading in details */
+.details h3 {
+    font-size: 20px;
+    text-align: left;
+}
+
+/* Style for deatils */
+.details p {
+    font-size: 14px;
+    text-align: left;
+}
+
+/* Style details button */
+.details-button {
+    background-color: white;
+    color: teal;
+    font-size: 14px;
+}
+
+/* Style profile photo */
+.profile-photo {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
